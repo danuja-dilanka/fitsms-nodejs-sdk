@@ -10,7 +10,6 @@ A high-performance, Promise-based Node.js wrapper for the [FitSMS.lk](https://fi
 
 ## 🚀 Features
 
-- **Multi-Version Support**: Handles v3 (Messaging) and v4 (Account/Profile) endpoints.
 - **Bearer Token Auth**: Secure authentication via headers.
 - **Flexible Recipients**: Supports strings, comma-separated lists, and arrays.
 - **Real-time Status**: Retrieve delivery reports using message UIDs.
