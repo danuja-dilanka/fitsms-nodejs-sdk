@@ -1,8 +1,8 @@
 # FitSMS Node.js SDK
 
 [![npm version](https://img.shields.io/npm/v/fitsms.svg)](https://www.npmjs.com/package/fitsms)
-[![license](https://img.shields.io/npm/l/fitsms.svg)](https://github.com/Global-Cloud-Media-Pvt-Ltd/fitsms-nodejs-sdk)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Global-Cloud-Media-Pvt-Ltd/fitsms-nodejs-sdk/pulls)
+[![license](https://img.shields.io/npm/l/fitsms.svg)](https://github.com/yourusername/fitsms)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/fitsms/pulls)
 
 A high-performance, Promise-based Node.js wrapper for the [FitSMS.lk](https://fitsms.lk) API. This SDK provides a clean interface for sending SMS, checking delivery status, and managing account balances.
 
@@ -44,7 +44,7 @@ const sms = new FitSMS("YOUR_BEARER_TOKEN", "The Change");
 ```js
 async function sendAlert() {
   try {
-    const recipients = ["94761695904", "94771234567"];
+    const recipients = ["94XXXXXXXXX", "94XXXXXXXX"];
 
     const response = await sms.send(
       recipients,
@@ -103,4 +103,4 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👨‍💻 Maintainer
 
-Maintained by **Danuja Dilanka**
+Maintained by [Global Cloud Media (pvt) Ltd.](https://globalcloudmedia.lk)
