@@ -1,8 +1,8 @@
 # FitSMS Node.js SDK
 
 [![npm version](https://img.shields.io/npm/v/fitsms.svg)](https://www.npmjs.com/package/fitsms)
-[![license](https://img.shields.io/npm/l/fitsms.svg)](https://github.com/yourusername/fitsms)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/fitsms/pulls)
+[![license](https://img.shields.io/npm/l/fitsms.svg)](https://github.com/Global-Cloud-Media-Pvt-Ltd/fitsms-nodejs-sdk)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Global-Cloud-Media-Pvt-Ltd/fitsms-nodejs-sdk/pulls)
 
 A high-performance, Promise-based Node.js wrapper for the [FitSMS.lk](https://fitsms.lk) API. This SDK provides a clean interface for sending SMS, checking delivery status, and managing account balances.
 
