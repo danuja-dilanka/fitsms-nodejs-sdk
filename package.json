@@ -1,0 +1,22 @@
+{
+  "name": "fitsms",
+  "version": "1.0.0",
+  "description": "The official-style Node.js SDK for the FitSMS.lk gateway.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "fitsms",
+    "sms",
+    "srilanka",
+    "gateway",
+    "bulk-sms",
+    "947"
+  ],
+  "author": "Danuja Dilanka",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
