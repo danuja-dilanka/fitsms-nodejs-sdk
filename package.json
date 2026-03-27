@@ -1,6 +1,6 @@
 {
   "name": "fitsms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The official-style Node.js SDK for the FitSMS.lk gateway.",
   "main": "index.js",
   "scripts": {
