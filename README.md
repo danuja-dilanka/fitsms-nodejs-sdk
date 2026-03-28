@@ -62,7 +62,7 @@ async function sendAlert() {
 ### Checking Message Status
 
 ```js
-const status = await sms.getStatus("606812e63f78b");
+const status = await sms.getStatus("606812e63f78b", "9476XXXXXXXX");
 console.log("Delivery Status:", status.data.status);
 ```
 
@@ -82,7 +82,7 @@ console.log("Remaining Units:", balance.data);
 | Method       | Parameters                | Description         |
 | ------------ | ------------------------- | ------------------- |
 | send()       | recipients, message, type | Sends an SMS        |
-| getStatus()  | uid                       | Get delivery status |
+| getStatus()  | ruid, recipient           | Get delivery status |
 | getBalance() | none                      | Get SMS balance     |
 | getProfile() | none                      | Get account profile |
 

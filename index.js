@@ -90,9 +90,9 @@ class FitSMS {
    * Check status of an existing SMS (v4 API)
    * @param {string} uid - The unique message ID
    */
-  async getStatus(uid, recipient) {
+  async getStatus(ruid, recipient) {
     try {
-      const response = await axios.get(`${this.v4Base}/sms/${uid}`, {
+      const response = await axios.get(`${this.v4Base}/sms/${ruid}`, {
         headers: this.headers,
         params: {
           recipient,
