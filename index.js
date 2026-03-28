@@ -88,7 +88,7 @@ class FitSMS {
 
   /**
    * Check status of an existing SMS (v4 API)
-   * @param {string} uid - The unique message ID
+   * @param {string} ruid - The unique message ID
    */
   async getStatus(ruid, recipient) {
     try {
